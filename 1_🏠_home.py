@@ -12,13 +12,13 @@ if "data" not in st.session_state:
     st.session_state["data"] = df_data
 
 
-st.markdown("# FIFA 2023 OFFICIAL DATASET!")
+st.markdown("# FIFA 2023 OFFICIAL DATASET! ⚽")
 
 st.sidebar.markdown("Desenvolvido por [Davi Nepomuceno](https://github.com/davimp3), créditos ao Prof. Rodrigo Tadewald - Asimov Academy")
 
 btn = st.button("Acesse dados da Kaggle")
 if btn: 
-    webbrowser.open_new_tab("https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data?resource=download ⚽")
+    webbrowser.open_new_tab("https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data?resource=download")
 
 st.markdown(
     """
