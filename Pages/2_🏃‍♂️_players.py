@@ -37,5 +37,5 @@ st.progress(int (player_stats["Overall"]))
 
 col1, col2, col3, col4 = st.columns(4)
 col1.metric(label="Market Value", value=f"£{player_stats['Value(£)']:,}")
-col2.metric(label="Week Remuneration", value=f"£{player_stats['Wage(£)']:,}")
+col2.metric(label="Weekly Wage", value=f"£{player_stats['Wage(£)']:,}")
 col3.metric(label="Release Cause", value=f"£{player_stats['Release Clause(£)']:,}")
